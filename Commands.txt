@@ -1,0 +1,8 @@
+# BACKEND
+..\venv\Scripts\activate
+uvicorn main:app --reload
+
+
+# FRONTEND
+npm run dev
+npm run dev -- --port 3000
